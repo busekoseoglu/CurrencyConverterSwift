@@ -69,7 +69,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     func fetchData(){
         
-        let url = URL(string: "http://data.fixer.io/api/latest?access_key=0db71b91b3104562c627b215c59e7baf")
+        let url = URL(string: "API KEY")
         
         URLSession.shared.dataTask(with: url!) { data, response, error in
             if error == nil{
